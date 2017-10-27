@@ -1,0 +1,26 @@
+{
+  "django": {
+    "allowed_hosts": [
+      ".compute.amazonaws.com",
+      ".elasticbeanstalk.com",
+      "*"
+    ],
+    "databases": {
+      "default": {
+        "ENGINE": "",
+        "NAME": "",
+        "USER": "",
+        "PASSWORD": "",
+        "HOST": "",
+        "PORT": ""
+      }
+    }
+  },
+  "aws": {
+    "access_key_id": "",
+    "secret_access_key": "",
+    "s3_bucket_name": "",
+    "s3_signature_version": "",
+    "s3_region_name": ""
+  }
+}
